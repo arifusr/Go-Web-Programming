@@ -1,0 +1,224 @@
+<map version="freeplane 1.8.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
+<node TEXT="Go Web Programming" FOLDED="false" ID="ID_77803176" CREATED="1613952462968" MODIFIED="1613952465855" STYLE="oval">
+<font SIZE="18"/>
+<hook NAME="MapStyle" zoom="1.331">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+
+<map_styles>
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<font SIZE="24"/>
+<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.attributes">
+<font SIZE="9"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.note" COLOR="#000000" BACKGROUND_COLOR="#ffffff" TEXT_ALIGN="LEFT"/>
+<stylenode LOCALIZED_TEXT="defaultstyle.floating">
+<edge STYLE="hide_edge"/>
+<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
+<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.important">
+<icon BUILTIN="yes"/>
+</stylenode>
+</stylenode>
+<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<font SIZE="18"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
+<font SIZE="16"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
+<font SIZE="14"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
+<font SIZE="12"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
+<font SIZE="10"/>
+</stylenode>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,5"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,6"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,7"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,8"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,9"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,10"/>
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level,11"/>
+</stylenode>
+</stylenode>
+</map_styles>
+</hook>
+<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<node TEXT="PART 1 GO AND WEB APPLICATIONS" POSITION="right" ID="ID_1064332134" CREATED="1613952586463" MODIFIED="1613952587443">
+<edge COLOR="#ff0000"/>
+<node TEXT="1 Go and web applications" ID="ID_1816453888" CREATED="1613952646024" MODIFIED="1613952653659">
+<node TEXT="1.1 Using Go for web applications" ID="ID_1954125462" CREATED="1613952783148" MODIFIED="1613952794776">
+<node TEXT="1.1.1 Scalable web applications and Go" ID="ID_1010862517" CREATED="1613953102614" MODIFIED="1613953105961">
+<node TEXT="vertically" ID="ID_1667796283" CREATED="1613953107441" MODIFIED="1613953111997"/>
+<node TEXT="horizontally" ID="ID_1630862349" CREATED="1613953112196" MODIFIED="1613953118795"/>
+</node>
+<node TEXT="1.1.2 Modular web applications and Go" ID="ID_798950335" CREATED="1613953124715" MODIFIED="1613953127725">
+<node TEXT="function types" ID="ID_1837742767" CREATED="1613953199545" MODIFIED="1613953199924"/>
+<node TEXT="functions as values" ID="ID_936289728" CREATED="1613953204182" MODIFIED="1613953204490"/>
+<node TEXT="closures" ID="ID_638712244" CREATED="1613953210149" MODIFIED="1613953211745"/>
+</node>
+<node TEXT="1.1.3 Maintainable web applications and Go" ID="ID_1979188563" CREATED="1613953237726" MODIFIED="1613953248744">
+<node TEXT="(godoc)" ID="ID_1061229481" CREATED="1613953455676" MODIFIED="1613953456122"/>
+<node TEXT="gotest" ID="ID_1481841994" CREATED="1613953460695" MODIFIED="1613953461081"/>
+</node>
+<node TEXT="1.1.4 High performing web applications and Go" ID="ID_87075667" CREATED="1613953480060" MODIFIED="1613953489047">
+<node TEXT="Go compiles to&#xa;native code" ID="ID_1749991407" CREATED="1613953541187" MODIFIED="1613953542418"/>
+<node TEXT="gorou-&#xa;tines," ID="ID_917279781" CREATED="1613953551498" MODIFIED="1613953552019"/>
+</node>
+</node>
+<node TEXT="1.2 How web applications work" ID="ID_24994152" CREATED="1613952800223" MODIFIED="1613952807640">
+<node TEXT="web server to be a specialized type&#xa;of web application that returns only files" ID="ID_1364529562" CREATED="1613953932264" MODIFIED="1613953933184"/>
+<node TEXT="web application doesn’t simply return&#xa;files" ID="ID_1522998101" CREATED="1613953918801" MODIFIED="1613953939227"/>
+<node TEXT="The program must return HTML to a calling client that renders HTML and dis-&#xa;plays to a user." ID="ID_22096720" CREATED="1613953879217" MODIFIED="1613953879683"/>
+<node TEXT=" The data must be transported to the client through HTTP ." ID="ID_1985142422" CREATED="1613953884027" MODIFIED="1613953884332"/>
+<node TEXT="if a program doesn’t render HTML to a user but&#xa;instead returns data in any other format to another program, it is a web service" ID="ID_1821572224" CREATED="1613953967265" MODIFIED="1613953967711"/>
+</node>
+<node TEXT="1.3 A quick introduction to HTTP" ID="ID_297460597" CREATED="1613953993205" MODIFIED="1613953999365">
+<node TEXT="HTTP is the application-level communications protocol" ID="ID_1884903372" CREATED="1613954021419" MODIFIED="1613954022380"/>
+<node TEXT="The first version of HTTP" ID="ID_1542346378" CREATED="1613954063750" MODIFIED="1613954064659"/>
+<node TEXT="HTTP 1.0 in 1996" ID="ID_1187897143" CREATED="1613954085746" MODIFIED="1613954091723"/>
+<node TEXT="HTTP 1.1 in 1999" ID="ID_725197034" CREATED="1613954098368" MODIFIED="1613954103649"/>
+<node TEXT="HTTP 2.0" ID="ID_548992104" CREATED="1613954157623" MODIFIED="1613954158023"/>
+<node TEXT="client-server computing model" ID="ID_718056706" CREATED="1613954183686" MODIFIED="1613954184078">
+<node TEXT="the requester (the client) always&#xa;initiates the conversation with the responder (the server)" ID="ID_978240625" CREATED="1613954199199" MODIFIED="1613954199581"/>
+</node>
+<node TEXT="HTTP 1.1 does persist connections" ID="ID_1453402039" CREATED="1613954268527" MODIFIED="1613954268984"/>
+</node>
+<node TEXT="1.4 The coming of web applications" ID="ID_1526178986" CREATED="1613952810038" MODIFIED="1613952820118">
+<node TEXT="Common&#xa;Gateway Interface (CGI)" ID="ID_432983997" CREATED="1613954391019" MODIFIED="1613954391422"/>
+<node TEXT="server-side includes (SSI)" ID="ID_518961092" CREATED="1613954398711" MODIFIED="1613954399040">
+<node TEXT="PHP ," ID="ID_139757259" CREATED="1613954444201" MODIFIED="1613954444953"/>
+<node TEXT="ASP" ID="ID_1251156667" CREATED="1613954445556" MODIFIED="1613954447197"/>
+<node TEXT="JSP" ID="ID_1483086508" CREATED="1613954447381" MODIFIED="1613954449001"/>
+<node TEXT="ColdFusion." ID="ID_1490928894" CREATED="1613954454032" MODIFIED="1613954454443"/>
+<node TEXT="Mustache," ID="ID_716132727" CREATED="1613954460758" MODIFIED="1613954461098"/>
+<node TEXT="ERB," ID="ID_1085199836" CREATED="1613954464456" MODIFIED="1613954465063"/>
+<node TEXT="Velocity," ID="ID_1025312998" CREATED="1613954468194" MODIFIED="1613954468515"/>
+</node>
+</node>
+<node TEXT="1.5 HTTP request" ID="ID_80960246" CREATED="1613952822312" MODIFIED="1613952831687">
+<node TEXT="HTTP message, consists of a few lines of text" FOLDED="true" ID="ID_711167404" CREATED="1613954523902" MODIFIED="1613954524279">
+<node TEXT="Request-line" ID="ID_1638789938" CREATED="1613954530221" MODIFIED="1613954530615"/>
+<node TEXT="Zero or more request headers" ID="ID_184840858" CREATED="1613954536758" MODIFIED="1613954537076"/>
+<node TEXT="An empty line" ID="ID_864981947" CREATED="1613954540309" MODIFIED="1613954541863"/>
+<node TEXT="The message body" ID="ID_67707972" CREATED="1613954545927" MODIFIED="1613954546858"/>
+</node>
+<node TEXT="HTTP request looks" ID="ID_1371573563" CREATED="1613954559993" MODIFIED="1613954560309">
+<node TEXT="GET /Protocols/rfc2616/rfc2616.html HTTP/1.1&#xa;Host: www.w3.org&#xa;User-Agent: Mozilla/5.0&#xa;(empty line)" ID="ID_1473308610" CREATED="1613954563605" MODIFIED="1613954563909">
+<node TEXT="request method" ID="ID_214273097" CREATED="1613954586920" MODIFIED="1613954587864"/>
+<node TEXT="Uniform Resource&#xa;Identifier (URI)" ID="ID_1974618196" CREATED="1613954593813" MODIFIED="1613954594210"/>
+<node TEXT="version of HTTP" ID="ID_1074841394" CREATED="1613954600395" MODIFIED="1613954600724"/>
+<node TEXT="headers." ID="ID_222364843" CREATED="1613954613568" MODIFIED="1613954613928"/>
+</node>
+</node>
+<node TEXT="1.5.1 Request methods" ID="ID_678475563" CREATED="1613954645031" MODIFIED="1613954651704">
+<node TEXT="HTTP 0.9" ID="ID_1858542920" CREATED="1613954681999" MODIFIED="1613954682718">
+<node TEXT="GET" ID="ID_213262108" CREATED="1613954687047" MODIFIED="1613954687452"/>
+</node>
+<node TEXT="HTTP 1.0" ID="ID_1332827660" CREATED="1613954692225" MODIFIED="1613954692787">
+<node TEXT="GET" ID="ID_137867599" CREATED="1613954697843" MODIFIED="1613954699519"/>
+<node TEXT="POST" ID="ID_1283867608" CREATED="1613954699679" MODIFIED="1613954701428"/>
+<node TEXT="HEAD" ID="ID_1748498307" CREATED="1613954701588" MODIFIED="1613954703589"/>
+</node>
+<node TEXT="HTTP 1.1" ID="ID_618182265" CREATED="1613954712775" MODIFIED="1613954713226">
+<node TEXT="GET" ID="ID_190844902" CREATED="1613954697843" MODIFIED="1613954699519">
+<node TEXT="return the specified resource" ID="ID_625551089" CREATED="1613954782057" MODIFIED="1613954782465"/>
+</node>
+<node TEXT="POST" ID="ID_1763631120" CREATED="1613954699679" MODIFIED="1613954701428">
+<node TEXT="data in the message body should be passed" ID="ID_992613150" CREATED="1613954826759" MODIFIED="1613954827119"/>
+</node>
+<node TEXT="HEAD" ID="ID_1615275450" CREATED="1613954701588" MODIFIED="1613954703589">
+<node TEXT=" server must not return a message&#xa;body." ID="ID_1253645625" CREATED="1613954793377" MODIFIED="1613954793717"/>
+</node>
+<node TEXT="PUT" ID="ID_657935732" CREATED="1613954724123" MODIFIED="1613954725933">
+<node TEXT="data in the message body should be the resource&#xa;at the given URI" ID="ID_1163109508" CREATED="1613954844374" MODIFIED="1613954844838"/>
+</node>
+<node TEXT="DELETE" ID="ID_1952495101" CREATED="1613954726267" MODIFIED="1613954728222">
+<node TEXT="remove the resource identified by the URI" ID="ID_1159100788" CREATED="1613954867553" MODIFIED="1613954867960"/>
+</node>
+<node TEXT="OPTIONS" ID="ID_892527167" CREATED="1613954728474" MODIFIED="1613954730667">
+<node TEXT="return a list of HTTP methods that the server sup-&#xa;ports" ID="ID_596200827" CREATED="1613954963731" MODIFIED="1613954964205"/>
+</node>
+<node TEXT="TRACE" ID="ID_542265412" CREATED="1613954730941" MODIFIED="1613954733103">
+<node TEXT="return the request" ID="ID_1771067680" CREATED="1613954897197" MODIFIED="1613954897672"/>
+</node>
+<node TEXT="CONNECT" ID="ID_304952839" CREATED="1613954733410" MODIFIED="1613954735105">
+<node TEXT="et up a network connection with the client" ID="ID_1991533130" CREATED="1613954916869" MODIFIED="1613954920717"/>
+</node>
+<node TEXT="PATCH" ID="ID_624132893" CREATED="1613954934526" MODIFIED="1613954934958">
+<node TEXT="data in the message body modifies the&#xa;resource identified by the URI" ID="ID_897021383" CREATED="1613954947704" MODIFIED="1613954948104"/>
+</node>
+</node>
+</node>
+<node TEXT="1.5.2 Safe request methods" ID="ID_866107309" CREATED="1613955008223" MODIFIED="1613955032363">
+<node TEXT=" GET , HEAD, OPTIONS, and TRACE&#xa;are safe methods" ID="ID_1421091038" CREATED="1613955038984" MODIFIED="1613955039336"/>
+<node TEXT="POST , PUT , and DELETE methods do change the state of the server" ID="ID_310640917" CREATED="1613955050292" MODIFIED="1613955050564"/>
+</node>
+<node TEXT="1.5.3 Idempotent request methods" ID="ID_478720965" CREATED="1613955094678" MODIFIED="1613955098324">
+<node TEXT="state of the server doesn’t change the second&#xa;time the method is called with the same data" ID="ID_1641318913" CREATED="1613955112452" MODIFIED="1613955112798"/>
+<node TEXT="PUT and DELETE are idempotent but not safe" ID="ID_575737447" CREATED="1613955120613" MODIFIED="1613955120914"/>
+<node TEXT="Idempotency is an important idea" ID="ID_1728839993" CREATED="1613955158993" MODIFIED="1613955159289"/>
+</node>
+<node TEXT="1.5.4 Browser support for request methods" FOLDED="true" ID="ID_1526579305" CREATED="1613955168590" MODIFIED="1613955439719">
+<node TEXT="HTML doesn’t support any other HTTP methods besides GET and POST" ID="ID_1915474868" CREATED="1613955226107" MODIFIED="1613955226546"/>
+<node TEXT="To support PUT and DELETE,&#xa;you can use XMLHttpRequest (XHR)" ID="ID_1358948845" CREATED="1613955376229" MODIFIED="1613955377458"/>
+</node>
+<node TEXT="1.5.5 Request headers" ID="ID_1087512408" CREATED="1613955446040" MODIFIED="1613955448497">
+<node TEXT="Request headers are colon-separated name-value pairs in plain text, terminated by&#xa;a carriage return (CR) and line feed (LF)" ID="ID_969535768" CREATED="1613955498728" MODIFIED="1613955499143"/>
+<node TEXT="headers are mostly optional" ID="ID_1773092343" CREATED="1613955567769" MODIFIED="1613955568091"/>
+<node TEXT="Host header field" ID="ID_201769003" CREATED="1613955577149" MODIFIED="1613955579047">
+<node TEXT="mandatory" ID="ID_1306690770" CREATED="1613955579818" MODIFIED="1613955584410"/>
+</node>
+<node TEXT="Content-Length" ID="ID_1638186313" CREATED="1613955591920" MODIFIED="1613955592471">
+<node TEXT="if the message has a message body" ID="ID_1180218809" CREATED="1613955606638" MODIFIED="1613955606959"/>
+</node>
+<node TEXT="Transfer-Encoding" ID="ID_1431891092" CREATED="1613955596563" MODIFIED="1613955596864">
+<node TEXT="if the message has a message body" ID="ID_1170295291" CREATED="1613955606638" MODIFIED="1613955606959"/>
+</node>
+</node>
+</node>
+<node TEXT="1.6 HTTP response" ID="ID_431014946" CREATED="1613952834919" MODIFIED="1613952840444"/>
+<node TEXT="1.7 URI" ID="ID_1917366065" CREATED="1613952841275" MODIFIED="1613952844845"/>
+<node TEXT="1.8 Introduction HTTP/2" ID="ID_1113774129" CREATED="1613952847281" MODIFIED="1613952855293"/>
+<node TEXT="1.9 Part of a web app" ID="ID_1923997802" CREATED="1613952857922" MODIFIED="1613952864910"/>
+<node TEXT="1.10 Hello Go" ID="ID_1314954874" CREATED="1613952870655" MODIFIED="1613952875079"/>
+<node TEXT="1.11 Summary" ID="ID_1774209952" CREATED="1613952876502" MODIFIED="1613952880113"/>
+</node>
+<node TEXT="2 Go ChitChat" ID="ID_1549314740" CREATED="1613952657692" MODIFIED="1613952663301"/>
+</node>
+<node TEXT="PART 2 BASIC WEB APPLICATIONS" POSITION="right" ID="ID_151593891" CREATED="1613952607427" MODIFIED="1613952607793">
+<edge COLOR="#0000ff"/>
+<node TEXT="3 Handling request" ID="ID_935451074" CREATED="1613952670762" MODIFIED="1613952677466"/>
+<node TEXT="4 Processing request" ID="ID_1218375278" CREATED="1613952681175" MODIFIED="1613952687082"/>
+<node TEXT="5 Displaying content" ID="ID_1835438249" CREATED="1613952690110" MODIFIED="1613952696667"/>
+<node TEXT="6 Storing data" ID="ID_1041378056" CREATED="1613952698719" MODIFIED="1613952704066"/>
+</node>
+<node TEXT="PART 3 BEING REAL" POSITION="right" ID="ID_1548828803" CREATED="1613952621250" MODIFIED="1613952621499">
+<edge COLOR="#00ff00"/>
+<node TEXT="7 Go web services" ID="ID_1944365178" CREATED="1613952708380" MODIFIED="1613952715790"/>
+<node TEXT="8 Testing your application" ID="ID_353163937" CREATED="1613952720260" MODIFIED="1613952732458"/>
+<node TEXT="9 Leveraging Go concurrency" ID="ID_201630029" CREATED="1613952737878" MODIFIED="1613952759669"/>
+<node TEXT="10 Deploying Go" ID="ID_1461532438" CREATED="1613952760278" MODIFIED="1613952766633"/>
+</node>
+</node>
+</map>
